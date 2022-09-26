@@ -8,8 +8,8 @@ COPY package*.json ./
 
 RUN npm ci --omit=dev
 
-COPY . .
+COPY ./src/ ./src/
 
 EXPOSE 8080
 
-CMD ["node", "index.js"] 
+CMD ["node", "./src/index.js"] 
