@@ -13,6 +13,8 @@ docker run -it --rm \
 
 Endpoint: http://0.0.0.0:8080/
 
+<a href="https://asciinema.org/a/pC7l3rMjTXdwjfjtAMVxgcB5w" target="_blank"><img src="https://asciinema.org/a/pC7l3rMjTXdwjfjtAMVxgcB5w.svg" /></a>
+
 ## Build & Run
 
 ```shell
