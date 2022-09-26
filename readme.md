@@ -1,5 +1,15 @@
 Build docker image & push to GitHub Packages registry with layers cache.
 
+## Pull & Run
+
+```shell
+docker run -it --rm \
+  -e "NODE_ENV=production" \
+  -e "DEBUG=*" -p "8080:8080" \
+  ghcr.io/seanghay/docker-build-cache-node:main
+```
+
+Endpoint: http://0.0.0.0:8080/
 
 ## Build & Run
 
