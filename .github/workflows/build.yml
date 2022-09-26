@@ -47,8 +47,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          push: false
-          tags: user/app:latest
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
       
