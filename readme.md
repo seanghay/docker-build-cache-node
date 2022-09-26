@@ -1,5 +1,7 @@
 Build docker image & push to GitHub Packages registry with layers cache.
 
+[![build](https://github.com/seanghay/docker-build-cache-node/actions/workflows/build.yml/badge.svg)](https://github.com/seanghay/docker-build-cache-node/actions/workflows/build.yml)
+
 ## Pull & Run
 
 ```shell
